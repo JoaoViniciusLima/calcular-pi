@@ -7,7 +7,7 @@ public class MinhaThread2 implements Runnable{
  }
     public void run(){
         
-        for(int i =30;i<50;i++){
+        for(int i =250000;i<500000;i++){
               pi = ((Math.pow(-1, i))/((2*i)+1));
 
           soma[1]=pi+soma[1];
