@@ -1,4 +1,5 @@
 public class MinhaThread implements Runnable{
+  
     double pi = 0,soma2=0;
   //int u=0,t=1;
     //double soma=0;
@@ -9,7 +10,7 @@ public class MinhaThread implements Runnable{
  }
     public void run(){
         
-        for(int i =0;i<30;i++){
+        for(int i =0;i<250000;i++){
               pi = ((Math.pow(-1, i))/((2*i)+1));
         
           soma[0]=pi+soma[0];
